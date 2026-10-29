@@ -6,6 +6,20 @@ Previously, I worked at IIT Delhi on satellite-based socioeconomic measurement a
 
 ## Public code
 
+### [Microsuturing image assessment](https://github.com/badri1995/microsuturing-assessment)
+
+Selected research code for DINOv2 image representations, evidential regression, score-group classification and uncertainty estimation. Includes a portable cross-validation entry point. Research only, not a clinically validated decision tool.
+
+### [Relative Wealth Index](https://github.com/badri1995/relative-wealth-index)
+
+Research notebooks for census-based target construction, selected-feature random forest regression and a historical prediction experiment. The released notebooks document their input requirements and evaluation limits.
+
+### [Groundwater modelling](https://github.com/badri1995/groundwater-modelling)
+
+Geospatial preparation notebooks for associating monitoring wells with micro-watersheds and integrating groundwater development features. This initial release covers preparation stages, not the complete modelling pipeline.
+
+These are source-only releases. Research datasets, images, annotations, notebook outputs and trained weights are not included.
+
 ### [Satellite indicators and village development](https://github.com/badri1995/ADI_complete)
 
 A research workflow covering satellite imagery preparation, village extraction, CNN features, neighbourhood information, nightlights, population features, and regression against census indicators. The repository preserves the original stage-by-stage scripts and notebooks; it is not a packaged library.
@@ -16,7 +30,7 @@ An image processing project exploring shadow maps, edge-preserving filtering, co
 
 ## Selected research
 
-These summaries describe my research experience. Code is publicly available only where a repository is linked above.
+These summaries describe the broader research experience behind the selected code releases above.
 
 ### Microsuturing assessment
 
