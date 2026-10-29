@@ -12,18 +12,24 @@ Assessing technical indicators of completed microsutures using DINOv2 representa
 
 **Entry points:** [`demo.py`](https://github.com/badri1995/microsuturing-assessment/blob/main/demo.py) for a data-free wiring check, then [`train_kfold_cv.py`](https://github.com/badri1995/microsuturing-assessment/blob/main/train_kfold_cv.py) for authorised data.
 
+### [Prostate imaging research](https://github.com/badri1995/prostate-imaging-research)
+
+Original paired MRI/histopathology correspondence and PANDA ROI notebooks, alongside a clearly identified September 2026 assisted restart. The restart checks slide/mask labels and calibration, extracts a physical patch and exports MSER candidates as SVG. It is an early histology-to-MRI research direction, not a completed PI-CAI detector or diffusion simulation.
+
+**Entry points:** [project map](https://github.com/badri1995/prostate-imaging-research/blob/main/WORKFLOW.md), [restart notebook](https://github.com/badri1995/prostate-imaging-research/blob/main/notebooks/PICAI_Histology_Restart.ipynb) and [synthetic tests](https://github.com/badri1995/prostate-imaging-research/blob/main/test_histology.py).
+
 ## Earlier work: geospatial machine learning at IIT Delhi
 
-| Project | Research question | Code to start with |
-| --- | --- | --- |
-| [Relative Wealth Index](https://github.com/badri1995/relative-wealth-index) | How can satellite-related indicators help estimate relative socioeconomic development? | [`workflow.py`](https://github.com/badri1995/relative-wealth-index/blob/main/workflow.py): selected-feature regression with explicit data splits and a synthetic demo. Original target-construction notebooks are retained. |
-| [Groundwater preparation](https://github.com/badri1995/groundwater-modelling) | How can monitoring wells be associated with watersheds to prepare groundwater modelling inputs? | [`prepare_wells.py`](https://github.com/badri1995/groundwater-modelling/blob/main/prepare_wells.py): CRS-aware spatial matching and continuity-based representative-well selection. This is the preparation stage, not a complete prediction model. |
+| Project                                                                          | Research question                                                                      | Code to start with                                                                                                                                                                                                                                                                                                                                                                                           |
+| -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [Relative Wealth Index](https://github.com/badri1995/relative-wealth-index)      | How can satellite-related indicators help estimate relative socioeconomic development? | [`workflow.py`](https://github.com/badri1995/relative-wealth-index/blob/main/workflow.py): selected-feature regression with explicit data splits and a synthetic demo. Original target-construction notebooks are retained.                                                                                                                                                                                  |
+| [CGWB groundwater modelling](https://github.com/badri1995/groundwater-modelling) | How do hydrological and geospatial covariates relate to changes in groundwater depth?  | [17-notebook workflow](https://github.com/badri1995/groundwater-modelling/blob/main/WORKFLOW.md): observation cleaning, aquifer and terrain integration, ABY/SOGE features, deep and shallow five-year modelling, regression comparisons and transfer experiments. [`prepare_wells.py`](https://github.com/badri1995/groundwater-modelling/blob/main/prepare_wells.py) remains a small runnable entry point. |
 
 [ADI_complete](https://github.com/badri1995/ADI_complete) preserves the earlier satellite-indicator workflow. It provides background to the socioeconomic research, rather than another independent flagship project.
 
 ## About the releases
 
-These repositories separate existing research source from newer portability improvements. Each has setup instructions, an executable synthetic example and an account of what the public code does and does not include. Synthetic examples are software checks, not scientific results. Private datasets, images, annotations and trained weights are not distributed; study results have not been reproduced in these releases.
+These repositories separate existing research source from newer portability improvements. They include setup instructions, synthetic demos or tests, and an account of what the public code does and does not include. Synthetic checks are software checks, not scientific results. Private datasets, images, annotations and trained weights are not distributed; study results have not been reproduced in these releases.
 
 Python · PyTorch · scikit-learn · GeoPandas · Computer vision · Uncertainty estimation · Geospatial ML
 
